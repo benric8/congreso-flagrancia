@@ -14,9 +14,9 @@ export class InicioComponent implements OnInit  {
   faLocationDot = faLocationDot;
   faEnvelope = faEnvelope;
   faMarker = faMarker;
-  //urlRegistro = "forms.gle/C8QeEuf4ArdwaXwa9";
+  
   urlRegistro = environment.urlFormRegistro;
-  //urlPdf = "assets/doc/V-congreso-de-discapacidad-2023.pdf";
+  
   urlPdf = environment.pathPrograma;
 
   currentDate :Date = new Date();

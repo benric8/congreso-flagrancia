@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "v-congreso-internacional": {
+    "III-congreso-flagrancia": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/v-congreso-internacional",
+            "outputPath": "dist/iii-congreso-flagrancia",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -71,10 +71,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "v-congreso-internacional:build:production"
+              "browserTarget": "III-congreso-flagrancia:build:production"
             },
             "development": {
-              "browserTarget": "v-congreso-internacional:build:development"
+              "browserTarget": "III-congreso-flagrancia:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -82,7 +82,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "v-congreso-internacional:build"
+            "browserTarget": "III-congreso-flagrancia:build"
           }
         },
         "test": {
