@@ -1,8 +1,8 @@
      
         
-            <header class="text-center py-5">
-                <img src="assets/img/logos/LogoPJ.png" class="logo-left" width="150px" height="130px">
-                <div class="title-container">
+            <header class="´grid grid-cols-3 ">
+                <img src="assets/img/logos/LogoPJ.png" class="logo-left" width="150px">
+                <div class="title-container w-3/4 relative top-8">
                   <h1><b>III CONGRESO INTERNACIONAL DE FLAGRANCIA</b></h1>
                   <h2><b>LA CRIMINALIDAD EN EL PERÚ: RETOS Y DESAFÍOS DE LAS UNIDADES DE FLAGRANCIA 2024</b></h2>
                   <!-- <h1><img src="img/portal/banderas.png" width="200px" height="40px"></h1>
@@ -15,25 +15,26 @@
                     <img class="bandera" src="assets/img/banderas/chile.jpg" alt="Bandera de Chile">
                     <img class="bandera" src="assets/img/banderas/ecuador.jpg" alt="Bandera de Ecuador">
                 </div>
-                <div class="flex justify-center animate__animated animate__swing animate__delay-1s">
-                    <div class="rounded-lg  px-4 md:px-8 py-2 md:py-4 m-2 card-fecha brillo z-depth-3">
-                        <div class="text-center item-card-fecha-dia item-card-fecha-border">27, 28 y 29</div>
-                        <div class="text-center item-card-fecha">AGOSTO 2024</div>
+                <div class="flex justify-center ">
+                    <div class="rounded-lg bg-[#800000] text-white px-4 md:px-8 py-2 md:py-4 m-2 brillo z-depth-3">
+                      <div class="text-center item-card-fecha-dia item-card-fecha-border">27, 28 y 29</div>
+                      <div class="text-center item-card-fecha">AGOSTO 2024</div>
                     </div>
-                </div>
+                  </div>
+                  
             
-                  <h4>Auditorio Zum de la Universidad de Lima, Av. Javier Prado Este 4600, Lima.</h4>
+                  <h4 >Auditorio Zum de la Universidad de Lima, Av. Javier Prado Este 4600, Lima.</h4>
                 </div>
-                <img src="assets/img/logos/logo-comision.png" class="logo-right" width="200px" height="60px">
+                <img src="assets/img/logos/logo-comision.png" class="logo-right" width="150px" height="60px">
             </header>
 
             
 
             
-            <section  class="bg-gray-200 h-screen flex items-center justify-center">
-                <div class="flex space-x-2 max-w-2xl w-full px-2">
+            <section  class="grid grid-rows-1  place-items-center mt-6 ">
+                <div class="grid grid-cols-2 gap-8 w-3/4 ">
                     
-                        <div class="flex-1 bg-blue-500 p-2 text-white">
+                        <div class="flex-1  p-1 content-center">
                             <video
                                 class="video-js"
                                 id="cumbre-pj-video"
@@ -53,11 +54,11 @@
                         </div>
                     
                     
-                        <div class="flex-1 bg-green-500 p-2 text-white">
-                            <h2 class="text-center font-bold">
-                                III Congreso Internacional de Flagrancia: La criminalidad en el Perú: Retos y Desafíos de las Unidades de Flagrancia
-                            </h2>
-                            <p >
+                        <div class="flex-1  p-2 leading-relaxed">
+                            <p class="font-bold text-center">
+                                <b> III Congreso Internacional de Flagrancia</b>
+                            </p>
+                            <p class="font-bold">
                                 <b>Objetivo</b>
                             </p>
                             <p class="text-justify">
@@ -70,10 +71,10 @@
                                 Este importante evento se realizará en la ciudad de Lima, los días 27, 28 y 29 de agosto del año en curso de 07:40 a las 17:40 horas , en el Auditorio Zum de la Universidad de Lima, ubicado en la Av. Javier Prado Este 4600.
                             </p>
                             <div class="flex gap-2">
-                                <button class="bg-orange-800 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded-full animate__animated animate__tada animate__delay-2s" (click)="registrarseClick();">
+                                <button class="bg-red-600 text-white font-bold hover:bg-red-700  py-3 px-4 rounded-lg" (click)="registrarseClick();">
                                     Registrarse
                                 </button>
-                                <button class="bg-sky-800 hover:bg-sky-700 text-white font-bold py-2 px-4 rounded-full animate__animated animate__tada animate__delay-3s" (click)="verProgramaClick()">
+                                <button class="bg-sky-600 hover:bg-sky-700 text-white font-bold py-3 px-4 rounded-lg  " (click)="verProgramaClick()">
                                     Abrir Programa
                                 </button>
                             </div>
@@ -83,8 +84,8 @@
                 </div>
             </section>
         
-        <section class="bg-info py-5 text-center mx-auto">
-            <div class="text-black-400 font-semibold text-justify sm:text-lg my-4">
+        <section class="bg-[#17a2b8] text-justify mx-auto text-white h-40 grid grid-rows-1  place-items-center py-4 ">
+            <div class=" font-semibold leading-relaxed sm:text-lg my-4 w-3/4 py-4">
                 Se contará con la participación de 15 destacados expositores nacionales e internacionales provenientes de Argentina, Chile, Colombia, Ecuador, Costa Rica, El Salvador, España, Italia y Perú. Además, la participación de 30 panelistas entre jueces, fiscales, defensores públicos y privados, docentes universitarios y miembros de la Policía Nacional del Perú.
             </div>
         </section>
@@ -97,10 +98,12 @@
                 <div class="grid grid-cols-1 md:grid-cols-2 md:gap-6 lg:grid-cols-2 lg:gap-6 xl:grid-cols-3 xl:gap-8">
 
                     <div class="card flex justify-center animate__animated animate__pulse p-6">
-                        <div class="box">
-                            <div class="ribbon ribbon-top-left"><span>Argentina</span></div>
+                        <div class="box ">
+                            
                             <div class="max-w-sm overflow-hidden z-depth-4 card-item">
-                                <img class="w-full" src="assets/img/cards/pon1-claudio-santagatti.png" alt="Sunset in the mountains">
+                                <div class="w-full h-48 overflow-hidden rounded-t-lg">
+                                    <img class="w-full h-full object-cover" src="assets/img/cards/pon1-claudio-santagatti.png" alt="Sunset in the mountains">
+                                </div>    
                                 <div class="px-6 py-4">
                                     
                                     <div class="font-bold text-xl mb-2"><i class="fab fa-flag-spain"></i> DR. CLAUDIO JESÚS SANTAGATTI</div>
@@ -113,11 +116,15 @@
                         </div>
                     </div>
 
+                   
+
                     <div class="card flex justify-center animate__animated animate__pulse p-6">
                         <div class="box">
-                            <div class="ribbon ribbon-top-left"><span>Chile</span></div>
+                            
                             <div class="max-w-sm overflow-hidden z-depth-4 card-item">
-                                <img class="w-full" src="assets/img/cards/pon2-patricio-caroca.png" alt="Sunset in the mountains">
+                                <div class="w-full h-48 overflow-hidden rounded-t-lg">
+                                    <img class="w-full h-full object-cover" src="assets/img/cards/pon2-patricio-caroca.png" alt="Sunset in the mountains">
+                                </div>    
                                 <div class="px-6 py-4">
                                     <div class="font-bold text-xl mb-2">DR. PATRICIO CAROCA LUENGO</div>
                                     <p class="text-gray-700 text-base text-justify">
@@ -131,9 +138,11 @@
 
                     <div class="card flex justify-center animate__animated animate__pulse p-6">
                         <div class="box">
-                            <div class="ribbon ribbon-top-left"><span>Colombia</span></div>
+                            
                             <div class="max-w-sm overflow-hidden z-depth-4 card-item">
-                                <img class="w-full" src="assets/img/cards/pon3-david-gutierrez.png" alt="Sunset in the mountains">
+                                <div class="w-full h-48 overflow-hidden rounded-t-lg">
+                                    <img class="w-full h-full object-cover" src="assets/img/cards/pon3-david-gutierrez.png" alt="Sunset in the mountains">
+                                </div>    
                                 <div class="px-6 py-4">
                                     <div class="font-bold text-xl mb-2">DR. DAVID GUTIÉRREZ CASTAÑO</div>
                                     <p class="text-gray-700 text-base text-justify">
@@ -147,9 +156,11 @@
 
                     <div class="card flex justify-center animate__animated animate__pulse p-6">
                         <div class="box">
-                            <div class="ribbon ribbon-top-left"><span>Costa Rica</span></div>
+                            
                             <div class="max-w-sm overflow-hidden z-depth-4 card-item">
-                                <img class="w-full" src="assets/img/cards/pon4-carlos-nunes.png" alt="Sunset in the mountains">
+                                <div class="w-full h-48 overflow-hidden rounded-t-lg">
+                                    <img class="w-full h-full object-cover" src="assets/img/cards/pon4-carlos-nunes.png" alt="Sunset in the mountains">
+                                </div>    
                                 <div class="px-6 py-4">
                                     <div class="font-bold text-xl mb-2">DR. CARLOS NÚÑEZ NUÑEZ</div>
                                     <p class="text-gray-700 text-base text-justify">
@@ -163,9 +174,11 @@
 
                     <div class="card flex justify-center animate__animated animate__pulse p-6">
                         <div class="box">
-                            <div class="ribbon ribbon-top-left"><span>Ecuador</span></div>
+                            
                             <div class="max-w-sm overflow-hidden z-depth-4 card-item">
-                                <img class="w-full" src="assets/img/cards/pon5-gustavo-jalkh.png" alt="Sunset in the mountains">
+                                <div class="w-full h-48 overflow-hidden rounded-t-lg">
+                                    <img class="w-full h-full object-cover" src="assets/img/cards/pon5-gustavo-jalkh.png" alt="Sunset in the mountains">
+                                </div>    
                                 <div class="px-6 py-4">
                                     <div class="font-bold text-xl mb-2">DR. GUSTAVO JALKH RÖBEN</div>
                                     <p class="text-gray-700 text-base text-justify">
@@ -179,9 +192,11 @@
 
                     <div class="card flex justify-center animate__animated animate__pulse p-6">
                         <div class="box">
-                            <div class="ribbon ribbon-top-left"><span>España</span></div>
+                            
                             <div class="max-w-sm overflow-hidden z-depth-4 card-item">
-                                <img class="w-full" src="assets/img/cards/pon6-ignacio-torres.png" alt="Sunset in the mountains">
+                                <div class="w-full h-48 overflow-hidden rounded-t-lg">
+                                    <img class="w-full h-full object-cover" src="assets/img/cards/pon6-ignacio-torres.png" alt="Sunset in the mountains">
+                                </div>    
                                 <div class="px-6 py-4">
                                     <div class="font-bold text-xl mb-2">DR. IGNACIO DE TORRES GUAJARDO </div>
                                     <p class="text-gray-700 text-base text-justify">
@@ -195,9 +210,11 @@
 
                     <div class="card flex justify-center animate__animated animate__pulse p-6">
                         <div class="box">
-                            <div class="ribbon ribbon-top-left"><span>Salvador</span></div>
+                            
                             <div class="max-w-sm overflow-hidden z-depth-4 card-item">
-                                <img class="w-full" src="assets/img/cards/pon7-miriam-aldana.png" alt="Sunset in the mountains">
+                                <div class="w-full h-48 overflow-hidden rounded-t-lg">
+                                    <img class="w-full h-full object-cover" src="assets/img/cards/pon7-miriam-aldana.png" alt="Sunset in the mountains">
+                                </div>    
                                 <div class="px-6 py-4">
                                     <div class="font-bold text-xl mb-2">DRA. MIRIAM GERARDINE ALDANA REVELO </div>
                                     <p class="text-gray-700 text-base text-justify">
@@ -211,9 +228,11 @@
 
                     <div class="card flex justify-center animate__animated animate__pulse p-6">
                         <div class="box">
-                            <div class="ribbon ribbon-top-left"><span>México</span></div>
+                            
                             <div class="max-w-sm overflow-hidden z-depth-4 card-item">
-                                <img class="w-full" src="assets/img/cards/pon8-manuel-guerrero.png" alt="Sunset in the mountains">
+                                <div class="w-full h-48 overflow-hidden rounded-t-lg">
+                                    <img class="w-full h-full object-cover" src="assets/img/cards/pon8-manuel-guerrero.png" alt="Sunset in the mountains">
+                                </div>    
                                 <div class="px-6 py-4">
                                     <div class="font-bold text-xl mb-2">DR. JUAN MANUEL GUERRERO ALMARAZ</div>
                                     <p class="text-gray-700 text-base text-justify">
