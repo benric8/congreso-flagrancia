@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    /* Establecer la imagen de fondo */
+    background-image: url("../img/background/palaciointerior.jpg");
+    /* Ajustar el tamaÃ±o y posiciÃ³n de la imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    /* Fijar la imagen de fondo para que no se desplace con el contenido */
+    background-attachment: fixed;
+    position: relative;
+    /* Agregar un fondo semi-transparente */
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  header {
+    /*background-color: #7B241C;*/
+    color: #FFFFFF;
+    position: relative;
+    padding: 10px;
+  }
+
+  .logo-left,
+  .logo-right {
+    /*width: 80px;
+    height: 80px;*/
+    position: absolute;
+    top: 20%;
+    transform: translateY(-50%);
+  }
+
+  .logo-left {
+    left: 10px;
+  }
+
+  .logo-right {
+    right: 10px;
+    
+  }
+
+  .title-container {
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .title-container h1 {
+    color: #1B4F72;
+    font-size: 47px;
+    line-height: 42px;
+    margin-bottom: 5px;
+  }
+
+  .title-container h2 {
+    color: #873600;
+    font-size: 31px;
+    line-height: 35px;
+  }
+  
+  .title-container h3 {
+    color: #190087;
+    font-size: 20px;
+    line-height: 35px;
+  }
+  .title-container h4 {
+    color: #000000;
+    font-size: 18px;
+    line-height: 30px;
+  }
+  
+  .expositor {
+    display: inline-block;
+    width: 100px; /* Ajusta el ancho de acuerdo a tus necesidades */
+    height: 100px; /* Ajusta la altura de acuerdo a tus necesidades */
+    border-radius: 50%; /* Aplica el borde redondeado para hacer que la imagen estÃ© en cÃ­rculo */
+    overflow: hidden; /* Para ocultar cualquier contenido adicional que se desborde del cÃ­rculo */
+    margin: 10px; /* Ajusta el margen entre cada expositor */
+  }
+
+  .expositor img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ajusta la imagen para llenar todo el cÃ­rculo sin deformarse */
+  }
+  ul {
+    list-style-type: circle; /* Cambia a "square" para viÃ±etas cuadradas */
+  }
+  li {
+    text-align: justify;
+  }
+
+  .pdf-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF; /* Color azul (puedes cambiarlo segÃºn tus colores) */
+    color: #FFFFFF; /* Color blanco para el texto */
+    text-decoration: none;
+    border-radius: 5px;
+  }
+
+  .pdf-button:hover {
+    background-color: #0056b3; /* Color azul mÃ¡s oscuro al pasar el ratÃ³n */
+  }
+
+  .social-buttons {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .social-button {
+    background-color: #25d366; /* Verde WhatsApp */
+    color: white;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    box-shadow: 2px 2px 3px #999;
+  }
+
+  .facebook-button {
+    background-color: #4267B2; /* Azul Facebook */
+  }
+
+  .fab.fa-whatsapp, .fab.fa-facebook-f {
+    font-size: 24px;
+  }
+  
