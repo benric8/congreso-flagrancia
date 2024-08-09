@@ -1,5 +1,6 @@
 import { Component, OnInit, } from '@angular/core';
 import {  faPhone , faLocationDot, faEnvelope, faMarker } from '@fortawesome/free-solid-svg-icons';
+import { faFacebook, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import { environment } from 'src/environments/environment';
 declare const configVideo: any;
 
@@ -15,6 +16,8 @@ export class InicioComponent implements OnInit  {
   faEnvelope = faEnvelope;
   faMarker = faMarker;
   
+  faFacebook = faFacebook;
+  faWhatsapp = faWhatsapp;
   urlRegistro = environment.urlFormRegistro;
   
   urlPdf = environment.pathPrograma;
