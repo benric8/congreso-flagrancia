@@ -41,6 +41,6 @@ export class InicioComponent implements OnInit  {
   }
 
   goLinkExterno(url:string){
-    window.open("//" + url, "_blank");
+    window.open(url, "_blank");
   }
 }

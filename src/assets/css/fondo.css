@@ -107,9 +107,10 @@ body {
     right: 20px;
     display: flex;
     flex-direction: column;
-  }
+    z-index: 1000; /* Asegura que los botones estén encima de otros elementos */
+}
 
-  .social-button {
+.social-button {
     background-color: #25d366; /* Verde WhatsApp */
     color: white;
     border-radius: 50%;
@@ -119,14 +120,82 @@ body {
     justify-content: center;
     align-items: center;
     margin-bottom: 10px;
-    box-shadow: 2px 2px 3px #99999900;
-  }
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3); /* Sombra más suave y transparente */
+    transition: background-color 0.3s, transform 0.3s; /* Animaciones suaves */
+}
 
-  .facebook-button {
+.social-button:hover {
+    transform: scale(1.1); /* Escala ligeramente el botón al pasar el ratón */
+}
+
+.whatsapp-button {
+    background-color: #25d366; /* Verde WhatsApp */
+}
+
+.facebook-button {
     background-color: #4267B2; /* Azul Facebook */
-  }
+}
 
-  .fab.fa-whatsapp, .fab.fa-facebook-f {
-    font-size: 24px;
+.text-4xl {
+    font-size: 2.25rem; /* Tamaño de fuente para los íconos */
+}
+
+  
+
+  @media (max-width: 768px) {
+    .logo-left,
+    .logo-right {
+      width: 50px;
+      height: 50px;
+      top: 10%;
+    }
+  
+    .title-container h1 {
+      font-size: 36px;
+      line-height: 38px;
+    }
+  
+    .title-container h2 {
+      font-size: 24px;
+      line-height: 28px;
+    }
+  
+    .title-container h3 {
+      font-size: 18px;
+      line-height: 30px;
+    }
+  
+    .title-container h4 {
+      font-size: 16px;
+      line-height: 28px;
+    }
   }
   
+  @media (max-width: 480px) {
+    .logo-left,
+    .logo-right {
+      width: 40px;
+      height: 40px;
+      top: 15%;
+    }
+  
+    .title-container h1 {
+      font-size: 28px;
+      line-height: 32px;
+    }
+  
+    .title-container h2 {
+      font-size: 20px;
+      line-height: 24px;
+    }
+  
+    .title-container h3 {
+      font-size: 16px;
+      line-height: 24px;
+    }
+  
+    .title-container h4 {
+      font-size: 14px;
+      line-height: 22px;
+    }
+  }

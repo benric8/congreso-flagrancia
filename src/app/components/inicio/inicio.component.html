@@ -8,12 +8,17 @@
                   <!-- <h1><img src="img/portal/banderas.png" width="200px" height="40px"></h1>
                   <img src="img/portal/fecha.png"> -->
 
-                  <div class="flex justify-center gap-2 mb-6 mt-6">
+                  <div class="flex flex-wrap justify-center gap-2 mb-6 mt-6">
                     <img class="bandera" src="assets/img/banderas/peru.jpg" alt="Bandera de Perú">
                     <img class="bandera" src="assets/img/banderas/argentina.jpg" alt="Bandera de Argentina">
                     <img class="bandera" src="assets/img/banderas/colombia.jpg" alt="Bandera de Colombia">
                     <img class="bandera" src="assets/img/banderas/chile.jpg" alt="Bandera de Chile">
                     <img class="bandera" src="assets/img/banderas/ecuador.jpg" alt="Bandera de Ecuador">
+                    <img class="bandera" src="assets/img/banderas/costa-rica.png" alt="Bandera de Argentina">
+                    <img class="bandera" src="assets/img/banderas/italia.png" alt="Bandera de Colombia">
+                    <img class="bandera" src="assets/img/banderas/mexico.png" alt="Bandera de Chile">
+                    <img class="bandera" src="assets/img/banderas/salvador.png" alt="Bandera de Ecuador">
+                    <img class="bandera" src="assets/img/banderas/spain.png" alt="Bandera de Ecuador">
                 </div>
                 <div class="flex justify-center ">
                     <div class="rounded-lg bg-[#800000] text-white px-4 md:px-8 py-2 md:py-4 m-2 brillo z-depth-3">
@@ -23,7 +28,7 @@
                   </div>
                   
             
-                  <h4 >Auditorio Zum de la Universidad de Lima, Av. Javier Prado Este 4600, Lima.</h4>
+                  <!-- <h4 >Auditorio Zum de la Universidad de Lima, Av. Javier Prado Este 4600, Lima.</h4> -->
                 </div>
                 <img src="assets/img/logos/logo-comision.png" class="logo-right" width="150px" height="60px">
             </header>
@@ -32,7 +37,7 @@
 
             
             <section  class="grid grid-rows-1  place-items-center mt-6 mb-10">
-                <div class="grid grid-cols-2 gap-8 w-3/4 ">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 w-full md:w-3/4 px-4 md:px-0 ">
                     
                         <div class="flex-1  p-1 content-center">
                             <video
@@ -55,9 +60,9 @@
                     
                     
                         <div class="flex-1  p-2 leading-relaxed">
-                            <p class="font-bold text-center">
+                           <!--  <p class="font-bold text-center">
                                 <b> III Congreso Internacional de Flagrancia</b>
-                            </p>
+                            </p> -->
                             <p class="font-bold">
                                 <b>Objetivo</b>
                             </p>
@@ -68,9 +73,14 @@
                                 <b>Lugar y Fecha</b>
                             </p>
                             <p class="text-justify mb-4">
-                                Este importante evento se realizará en la ciudad de Lima, los días 27, 28 y 29 de agosto del año en curso de 07:40 a las 17:40 horas , en el Auditorio Zum de la Universidad de Lima, ubicado en la Av. Javier Prado Este 4600.
+                                Modalidad presencial: Auditorio Zum de la Universidad de Lima, ubicado en la Av. Javier Prado Este 4600.
                             </p>
-                            <div class="flex gap-2">
+                            <p class="text-justify mb-4">
+                                Modalidad virtual a través del Facebook en vivo de la Comisión de Implementación de las Unidades de Flagrancia en el
+                                Perú. <a class="text-blue-500 hover:text-blue-700 underline hover:no-underline " href="https://www.facebook.com/profile.php?id=100094014965726">Modalidad virtual</a>
+                            </p>
+                            
+                            <div class="flex flex-col md:flex-row gap-2">
                                 <button class="bg-red-600 text-white font-bold hover:bg-red-700  py-3 px-4 rounded-lg" (click)="registrarseClick();">
                                     Registrarse
                                 </button>
@@ -84,273 +94,296 @@
                 </div>
             </section>
         
-        <section class="bg-[#800000] text-justify mx-auto text-white h-40 grid grid-rows-1  place-items-center py-4 ">
-            <div class=" font-semibold leading-relaxed sm:text-lg my-4 w-3/4 py-4">
+        <section class="bg-[#800000] text-white  flex justify-center section-container">
+            <div class=" leading-relaxed text-base sm:text-xs md:text-lg 2xl:text-3xl w-full max-w-6xl mx-4 font-roboto" >
                 Se contará con la participación de 15 destacados expositores nacionales e internacionales provenientes de Argentina, Chile, Colombia, Ecuador, Costa Rica, El Salvador, España, Italia y Perú. Además, la participación de 30 panelistas entre jueces, fiscales, defensores públicos y privados, docentes universitarios y miembros de la Policía Nacional del Perú.
             </div>
         </section>
         <section class="section-internacional section-container">
+            <div class="text-center text-orange-800 font-semibold  py-4 px-10 text-expo">
+                Expositores Internacionales
+            </div>
             
             <div class="page-container">
-                <div class="text-center text-orange-800 font-semibold  py-4 px-10 text-expo">
-                    Expositores Internacionales
-                </div>
-                <div class="grid grid-cols-1 md:grid-cols-2 md:gap-6 lg:grid-cols-2 lg:gap-6 xl:grid-cols-3 xl:gap-8">
 
-                    <div class="card flex justify-center animate__animated animate__pulse p-6">
-                        <div class="box ">
-                            
-                            <div class="max-w-sm overflow-hidden z-depth-4 card-item grid grid-cols-1 place-items-center bg-[#f1f1f1]">
-                                <div class="w-48 h-48  rounded-full overflow-hidden mt-4 shadow bg-white">
-                                    <img class="w-full h-full object-cover" src="assets/img/cards/pon1-claudio-santagatti.png" alt="Sunset in the mountains">
-                                </div>    
-                                <div class="px-6 py-4">
-                                    
-                                    <div class="font-bold text-xl mb-2"><i class="fab fa-flag-spain"></i> DR. CLAUDIO JESÚS SANTAGATTI</div>
-                                    <p class="text-gray-700 text-base text-justify">
-                                        Defensor General Adjunto en Poder Judicial de la provincia de Buenos Aires – Argentina.
-                                    </p>
-                                </div>
-                               
-                            </div>
-                        </div>
-                    </div>
-
-                   
-
-                    <div class="card flex justify-center animate__animated animate__pulse p-6">
-                        <div class="box">
-                            
-                            <div class="max-w-sm overflow-hidden z-depth-4 card-item grid grid-cols-1 place-items-center bg-[#f1f1f1]">
-                                <div class="w-48 h-48  rounded-full overflow-hidden mt-4 shadow bg-white">
-                                    <img class="w-full h-full object-cover" src="assets/img/cards/pon2-patricio-caroca.png" alt="Sunset in the mountains">
-                                </div>    
-                                <div class="px-6 py-4">
-                                    <div class="font-bold text-xl mb-2">DR. PATRICIO CAROCA LUENGO</div>
-                                    <p class="text-gray-700 text-base text-justify">
-                                        Fiscal Regional del Biobío y Fiscal Regional del Maule. Fiscal Nacional Subrogante del Ministerio Público de Chile.
-                                    </p>
-                                </div>
-                               
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="card flex justify-center animate__animated animate__pulse p-6">
-                        <div class="box">
-                            
-                            <div class="max-w-sm overflow-hidden z-depth-4 card-item grid grid-cols-1 place-items-center bg-[#f1f1f1]">
-                                <div class="w-48 h-48  rounded-full overflow-hidden mt-4 shadow bg-white">
-                                    <img class="w-full h-full object-cover" src="assets/img/cards/pon3-david-gutierrez.png" alt="Sunset in the mountains">
-                                </div>    
-                                <div class="px-6 py-4">
-                                    <div class="font-bold text-xl mb-2">DR. DAVID GUTIÉRREZ CASTAÑO</div>
-                                    <p class="text-gray-700 text-base text-justify">
-                                        Doctor en Derecho, Maestro universitario en diferentes Universidades de Colombia.
-                                    </p>
-                                </div>
-                               
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="card flex justify-center animate__animated animate__pulse p-6">
-                        <div class="box">
-                            
-                            <div class="max-w-sm overflow-hidden z-depth-4 card-item grid grid-cols-1 place-items-center bg-[#f1f1f1]">
-                                <div class="w-48 h-48  rounded-full overflow-hidden mt-4 shadow bg-white">
-                                    <img class="w-full h-full object-cover" src="assets/img/cards/pon4-carlos-nunes.png" alt="Sunset in the mountains">
-                                </div>    
-                                <div class="px-6 py-4">
-                                    <div class="font-bold text-xl mb-2">DR. CARLOS NÚÑEZ NUÑEZ</div>
-                                    <p class="text-gray-700 text-base text-justify">
-                                        Juez de Flagrancias en Costa Rica.
-                                    </p>
-                                </div>
-                               
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="card flex justify-center animate__animated animate__pulse p-6">
-                        <div class="box">
-                            
-                            <div class="max-w-sm overflow-hidden z-depth-4 card-item grid grid-cols-1 place-items-center bg-[#f1f1f1]">
-                                <div class="w-48 h-48  rounded-full overflow-hidden mt-4 shadow bg-white">
-                                    <img class="w-full h-full object-cover" src="assets/img/cards/pon5-gustavo-jalkh.png" alt="Sunset in the mountains">
-                                </div>    
-                                <div class="px-6 py-4">
-                                    <div class="font-bold text-xl mb-2">DR. GUSTAVO JALKH RÖBEN</div>
-                                    <p class="text-gray-700 text-base text-justify">
-                                        Doctor en Derecho. Ex Presidente del Consejo de la Judicatura del Ecuador y Ministro de Justicia y Derechos Humanos.
-                                    </p>
-                                </div>
-                               
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="card flex justify-center animate__animated animate__pulse p-6">
-                        <div class="box">
-                            
-                            <div class="max-w-sm overflow-hidden z-depth-4 card-item grid grid-cols-1 place-items-center bg-[#f1f1f1]">
-                                <div class="w-48 h-48  rounded-full overflow-hidden mt-4 shadow bg-white">
-                                    <img class="w-full h-full object-cover" src="assets/img/cards/pon6-ignacio-torres.png" alt="Sunset in the mountains">
-                                </div>    
-                                <div class="px-6 py-4">
-                                    <div class="font-bold text-xl mb-2">DR. IGNACIO DE TORRES GUAJARDO </div>
-                                    <p class="text-gray-700 text-base text-justify">
-                                        Magistrado del Juzgado Penal 5 de Madrid. Licenciado en derecho en la especialidad jurídico empresarial.
-                                    </p>
-                                </div>
-                               
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="card flex justify-center animate__animated animate__pulse p-6">
-                        <div class="box">
-                            
-                            <div class="max-w-sm overflow-hidden z-depth-4 card-item grid grid-cols-1 place-items-center bg-[#f1f1f1]">
-                                <div class="w-48 h-48  rounded-full overflow-hidden mt-4 shadow bg-white">
-                                    <img class="w-full h-full object-cover" src="assets/img/cards/pon7-miriam-aldana.png" alt="Sunset in the mountains">
-                                </div>    
-                                <div class="px-6 py-4">
-                                    <div class="font-bold text-xl mb-2">DRA. MIRIAM GERARDINE ALDANA REVELO </div>
-                                    <p class="text-gray-700 text-base text-justify">
-                                        Jueza del Tercer Tribunal contra el crimen organizado.
-                                    </p>
-                                </div>
-                               
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="card flex justify-center animate__animated animate__pulse p-6">
-                        <div class="box">
-                            
-                            <div class="max-w-sm overflow-hidden z-depth-4 card-item grid grid-cols-1 place-items-center bg-[#f1f1f1]">
-                                <div class="w-48 h-48  rounded-full overflow-hidden mt-4 shadow bg-white">
-                                    <img class="w-full h-full object-cover" src="assets/img/cards/pon8-manuel-guerrero.png" alt="Sunset in the mountains">
-                                </div>    
-                                <div class="px-6 py-4">
-                                    <div class="font-bold text-xl mb-2">DR. JUAN MANUEL GUERRERO ALMARAZ</div>
-                                    <p class="text-gray-700 text-base text-justify">
-                                        Defensor General Adjunto en Poder Judicial de la provincia de Buenos Aires – Argentina.
-                                    </p>
-                                </div>
-                               
-                            </div>
-                        </div>
-                    </div>
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6">
                     
-                      
-                    
-    
+                    <div class="card flex justify-center p-4">
+                        <div class="box w-full max-w-xs bg-[#f1f1f1] rounded-lg shadow-lg">
+                            <div class="flex justify-center my-2">
+                                <div class="w-48 h-48 bg-white rounded-full overflow-hidden shadow">
+                                    <img class="w-full h-full object-cover" src="assets/img/cards/pon1-claudio-santagatti.png" alt="DR. CLAUDIO JESÚS SANTAGATTI">
+                                </div>
+                                <div class="w-8 h-8 overflow-hidden shadow-lg absolute top-4 left-4 rounded-tl-lg rounded-br-lg">
+                                    <img class="w-full h-full object-cover" src="assets/img/banderas/argentina.jpg" alt="DR. CLAUDIO JESÚS SANTAGATTI">
+                                </div>
+                            </div>
+                            <div class="p-4">
+                                <div class="font-bold text-base mb-2 font-roboto text-justify">DR. CLAUDIO JESÚS SANTAGATTI</div>
+                                <p class="text-gray-700 text-base font-roboto text-justify">
+                                    Defensor General Adjunto en Poder Judicial de la provincia de Buenos Aires, Argentina.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card flex justify-center p-4">
+                        <div class="box w-full max-w-xs bg-[#f1f1f1] rounded-lg shadow-lg">
+                            <div class="flex justify-center my-2">
+                                <div class="w-48 h-48 bg-white rounded-full overflow-hidden shadow">
+                                    <img class="w-full h-full object-cover" src="assets/img/cards/pon2-patricio-caroca.png" alt="DR. CLAUDIO JESÚS SANTAGATTI">
+                                </div>
+                                <div class="w-8 h-8 overflow-hidden shadow-lg absolute top-4 left-4 rounded-tl-lg rounded-br-lg">
+                                    <img class="w-full h-full object-cover" src="assets/img/banderas/chile.jpg" alt="DR. CLAUDIO JESÚS SANTAGATTI">
+                                </div>
+                            </div>
+                            <div class="p-4">
+                                <div class="font-bold text-base mb-2 font-roboto text-justify">DR. PATRICIO CAROCA LUENGO</div>
+                                <p class="text-gray-700 text-base font-roboto text-justify">
+                                    Fiscal Regional del Biobío y Fiscal Regional del Maule. Fiscal Nacional Subrogante del Ministerio Público de Chile.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card flex justify-center p-4">
+                        <div class="box w-full max-w-xs bg-[#f1f1f1] rounded-lg shadow-lg">
+                            <div class="flex justify-center my-2">
+                                <div class="w-48 h-48 bg-white rounded-full overflow-hidden shadow">
+                                    <img class="w-full h-full object-cover" src="assets/img/cards/pon3-david-gutierrez.png" alt="DR. CLAUDIO JESÚS SANTAGATTI">
+                                </div>
+                                <div class="w-8 h-8 overflow-hidden shadow-lg absolute top-4 left-4 rounded-tl-lg rounded-br-lg">
+                                    <img class="w-full h-full object-cover" src="assets/img/banderas/colombia.jpg" alt="DR. CLAUDIO JESÚS SANTAGATTI">
+                                </div>
+                            </div>
+                            <div class="p-4">
+                                <div class="font-bold text-base mb-2 font-roboto text-justify">DR. DAVID GUTIÉRREZ CASTAÑO</div>
+                                <p class="text-gray-700 text-base font-roboto text-justify">
+                                    Doctor en Derecho, Maestro universitario en diferentes Universidades de Colombia.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card flex justify-center p-4">
+                        <div class="box w-full max-w-xs bg-[#f1f1f1] rounded-lg shadow-lg">
+                            <div class="flex justify-center my-2">
+                                <div class="w-48 h-48 bg-white rounded-full overflow-hidden shadow">
+                                    <img class="w-full h-full object-cover" src="assets/img/cards/pon4-carlos-nunes.png" alt="DR. CLAUDIO JESÚS SANTAGATTI">
+                                </div>
+                                <div class="w-8 h-8 overflow-hidden shadow-lg absolute top-4 left-4 rounded-tl-lg rounded-br-lg">
+                                    <img class="w-full h-full object-cover" src="assets/img/banderas/costa-rica.png" alt="DR. CLAUDIO JESÚS SANTAGATTI">
+                                </div>
+                            </div>
+                            <div class="p-4">
+                                <div class="font-bold text-base mb-2 font-roboto text-justify">DR. CARLOS NÚÑEZ NUÑEZ</div>
+                                <p class="text-gray-700 text-base font-roboto text-justify">
+                                    Juez de Flagrancias en Costa Rica.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card flex justify-center p-4">
+                        <div class="box w-full max-w-xs bg-[#f1f1f1] rounded-lg shadow-lg">
+                            <div class="flex justify-center my-2">
+                                <div class="w-48 h-48 bg-white rounded-full overflow-hidden shadow">
+                                    <img class="w-full h-full object-cover" src="assets/img/cards/pon5-gustavo-jalkh.png" alt="DR. CLAUDIO JESÚS SANTAGATTI">
+                                </div>
+                                <div class="w-8 h-8 overflow-hidden shadow-lg absolute top-4 left-4 rounded-tl-lg rounded-br-lg">
+                                    <img class="w-full h-full object-cover" src="assets/img/banderas/ecuador.jpg" alt="DR. CLAUDIO JESÚS SANTAGATTI">
+                                </div>
+                            </div>
+                            <div class="p-4">
+                                <div class="font-bold text-base mb-2 font-roboto text-justify">DR. GUSTAVO JALKH RÖBEN</div>
+                                <p class="text-gray-700 text-base font-roboto text-justify">
+                                    Doctor en Derecho. Ex Presidente del Consejo de la Judicatura del Ecuador y Ministro de Justicia y Derechos Humanos.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card flex justify-center p-4">
+                        <div class="box w-full max-w-xs bg-[#f1f1f1] rounded-lg shadow-lg">
+                            <div class="flex justify-center my-2">
+                                <div class="w-48 h-48 bg-white rounded-full overflow-hidden shadow">
+                                    <img class="w-full h-full object-cover" src="assets/img/cards/pon6-ignacio-torres.png" alt="DR. CLAUDIO JESÚS SANTAGATTI">
+                                </div>
+                                <div class="w-8 h-8 overflow-hidden shadow-lg absolute top-4 left-4 rounded-tl-lg rounded-br-lg">
+                                    <img class="w-full h-full object-cover" src="assets/img/banderas/spain.png" alt="DR. CLAUDIO JESÚS SANTAGATTI">
+                                </div>
+                            </div>
+                            <div class="p-4">
+                                <div class="font-bold text-base mb-2 font-roboto text-justify">DR. IGNACIO DE TORRES GUAJARDO</div>
+                                <p class="text-gray-700 text-base font-roboto text-justify">
+                                    Magistrado del Juzgado Penal 5 de Madrid. Licenciado en derecho en la especialidad jurídico empresarial.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card flex justify-center p-4">
+                        <div class="box w-full max-w-xs bg-[#f1f1f1] rounded-lg shadow-lg">
+                            <div class="flex justify-center my-2">
+                                <div class="w-48 h-48 bg-white rounded-full overflow-hidden shadow">
+                                    <img class="w-full h-full object-cover" src="assets/img/cards/pon7-miriam-aldana.png" alt="DR. CLAUDIO JESÚS SANTAGATTI">
+                                </div>
+                                <div class="w-8 h-8 overflow-hidden shadow-lg absolute top-4 left-4 rounded-tl-lg rounded-br-lg">
+                                    <img class="w-full h-full object-cover" src="assets/img/banderas/salvador.png" alt="DR. CLAUDIO JESÚS SANTAGATTI">
+                                </div>
+                            </div>
+                            <div class="p-4">
+                                <div class="font-bold text-base mb-2 font-roboto text-justify">DRA. MIRIAM GERARDINE ALDANA REVELO</div>
+                                <p class="text-gray-700 text-base font-roboto text-justify">
+                                    Jueza del Tercer Tribunal contra el crimen organizado.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card flex justify-center p-4">
+                        <div class="box w-full max-w-xs bg-[#f1f1f1] rounded-lg shadow-lg">
+                            <div class="flex justify-center my-2">
+                                <div class="w-48 h-48 bg-white rounded-full overflow-hidden shadow">
+                                    <img class="w-full h-full object-cover" src="assets/img/cards/pon8-manuel-guerrero.png" alt="DR. CLAUDIO JESÚS SANTAGATTI">
+                                </div>
+                                <div class="w-8 h-8 overflow-hidden shadow-lg absolute top-4 left-4 rounded-tl-lg rounded-br-lg">
+                                    <img class="w-full h-full object-cover" src="assets/img/banderas/mexico.png" alt="DR. CLAUDIO JESÚS SANTAGATTI">
+                                </div>
+                            </div>
+                            <div class="p-4">
+                                <div class="font-bold text-base mb-2 font-roboto text-justify">DR. JUAN MANUEL GUERRERO ALMARAZ</div>
+                                <p class="text-gray-700 text-base font-roboto text-justify">
+                                    Director Jurídico para América Latina de la Barra Interamericana de Abogados y de la Facultad Interamericana de Litigación - México.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
+
         <section class="section-nacional section-container">
             <div class="page-container">
                 <div class="text-center text-white font-semibold  py-4 px-10 text-expo">
                     Expositores Nacionales
                 </div>
-                <div class="grid grid-cols-1 md:grid-cols-2 md:gap-6 lg:grid-cols-2 lg:gap-6 xl:grid-cols-3 xl:gap-8">
-
-                    <div class="card flex justify-center animate__animated animate__pulse p-6" >
-                        <div class="box">
-                            
-                            <div class="max-w-sm overflow-hidden z-depth-4 card-item grid grid-cols-1 place-items-center bg-[#f1f1f1]">
-                                 <div class="w-48 h-48  rounded-full overflow-hidden mt-4 shadow bg-white">
-                                     <img class="w-full" src="assets/img/cards/pon9-elvia-barrios.png" alt="Sunset in the mountains">
-                                 </div>
-                                <div class="px-6 py-4">
-                                    <div class="font-bold text-xl mb-2">DRA. ELVIA BARRIOS ALVARADO </div>
-                                    <p class="text-gray-700 text-base text-justify">
-                                        Jueza Suprema Titular, Miembro del Consejo Ejecutivo Presidenta de la UETI-CPP, Past presidenta del Poder Judicial 
-.
-                                    </p>
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    
+                    <div class="card flex justify-center p-4">
+                        <div class="box w-full max-w-xs bg-[#f1f1f1] rounded-lg shadow-lg">
+                            <div class="flex justify-center my-2">
+                                <div class="w-48 h-48 bg-white rounded-full overflow-hidden shadow">
+                                    <img class="w-full h-full object-cover" src="assets/img/cards/pon9-elvia-barrios.png" alt="DR. CLAUDIO JESÚS SANTAGATTI">
                                 </div>
-                               
+                                <div class="w-8 h-8 overflow-hidden shadow-lg absolute top-4 left-4 rounded-tl-lg rounded-br-lg">
+                                    <img class="w-full h-full object-cover" src="assets/img/banderas/peru.jpg" alt="DR. CLAUDIO JESÚS SANTAGATTI">
+                                </div>
+                            </div>
+                            <div class="p-4">
+                                <div class="font-bold text-base mb-2 font-roboto text-justify">DRA. ELVIA BARRIOS ALVARADO</div>
+                                <p class="text-gray-700 text-base font-roboto text-justify">
+                                    Jueza Suprema Titular, Miembro del Consejo Ejecutivo Presidenta de la UETI-CPP, Past presidenta del Poder Judicial.
+                                </p>
                             </div>
                         </div>
                     </div>
 
-                    <div class="card flex justify-center animate__animated animate__pulse p-6">
-                        <div class="box">
-                            
-                            <div class="max-w-sm overflow-hidden z-depth-4 card-item grid grid-cols-1 place-items-center bg-[#f1f1f1]">
-                                 <div class="w-48 h-48  rounded-full overflow-hidden mt-4 shadow bg-white">
-                                     <img class="w-full" src="assets/img/cards/pon10-jose-neyra.png" alt="Sunset in the mountains">
-                                 </div>
-                                <div class="px-6 py-4">
-                                    <div class="font-bold text-xl mb-2">DR. JOSÉ ANTONIO NEYRA FLORES </div>
-                                    <p class="text-gray-700 text-base text-justify">
-                                        Juez Supremo Titular de la Corte Suprema de Justicia del Perú.
-                                    </p>
+                    <div class="card flex justify-center p-4">
+                        <div class="box w-full max-w-xs bg-[#f1f1f1] rounded-lg shadow-lg">
+                            <div class="flex justify-center my-2">
+                                <div class="w-48 h-48 bg-white rounded-full overflow-hidden shadow">
+                                    <img class="w-full h-full object-cover" src="assets/img/cards/pon10-jose-neyra.png" alt="DR. CLAUDIO JESÚS SANTAGATTI">
                                 </div>
-                               
+                                <div class="w-8 h-8 overflow-hidden shadow-lg absolute top-4 left-4 rounded-tl-lg rounded-br-lg">
+                                    <img class="w-full h-full object-cover" src="assets/img/banderas/peru.jpg" alt="DR. CLAUDIO JESÚS SANTAGATTI">
+                                </div>
+                            </div>
+                            <div class="p-4">
+                                <div class="font-bold text-base mb-2 font-roboto text-justify">DR. JOSÉ ANTONIO NEYRA FLORES</div>
+                                <p class="text-gray-700 text-base font-roboto text-justify">
+                                    Juez Supremo Titular de la Corte Suprema de Justicia del Perú.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card flex justify-center p-4">
+                        <div class="box w-full max-w-xs bg-[#f1f1f1] rounded-lg shadow-lg">
+                            <div class="flex justify-center my-2">
+                                <div class="w-48 h-48 bg-white rounded-full overflow-hidden shadow">
+                                    <img class="w-full h-full object-cover" src="assets/img/cards/pon14-checkley-soria.png" alt="DR. CLAUDIO JESÚS SANTAGATTI">
+                                </div>
+                                <div class="w-8 h-8 overflow-hidden shadow-lg absolute top-4 left-4 rounded-tl-lg rounded-br-lg">
+                                    <img class="w-full h-full object-cover" src="assets/img/banderas/peru.jpg" alt="DR. CLAUDIO JESÚS SANTAGATTI">
+                                </div>
+                            </div>
+                            <div class="p-4">
+                                <div class="font-bold text-base mb-2 font-roboto text-justify">DR. JUAN CARLOS CHECKLEY SORIA</div>
+                                <p class="text-gray-700 text-base font-roboto text-justify">
+                                    Juez Supremo de la Corte Suprema de Justicia de la República.
+                                </p>
+                            </div>
+                        </div>
+                    </div> 
+
+                    <div class="card flex justify-center p-4">
+                        <div class="box w-full max-w-xs bg-[#f1f1f1] rounded-lg shadow-lg">
+                            <div class="flex justify-center my-2">
+                                <div class="w-48 h-48 bg-white rounded-full overflow-hidden shadow">
+                                    <img class="w-full h-full object-cover" src="assets/img/cards/pon11-giammpol-taboada.png" alt="DR. CLAUDIO JESÚS SANTAGATTI">
+                                </div>
+                                <div class="w-8 h-8 overflow-hidden shadow-lg absolute top-4 left-4 rounded-tl-lg rounded-br-lg">
+                                    <img class="w-full h-full object-cover" src="assets/img/banderas/peru.jpg" alt="DR. CLAUDIO JESÚS SANTAGATTI">
+                                </div>
+                            </div>
+                            <div class="p-4">
+                                <div class="font-bold text-base mb-2 font-roboto text-justify">DR. GIAMMPOL TABOADA PILCO</div>
+                                <p class="text-gray-700 text-base font-roboto text-justify">
+                                    Juez Superior Titular de la Corte Superior de Justicia de La Libertad.
+                                </p>
                             </div>
                         </div>
                     </div>
 
-                    <div class="card flex justify-center animate__animated animate__pulse p-6">
-                        <div class="box">
-                            
-                            <div class="max-w-sm overflow-hidden z-depth-4 card-item grid grid-cols-1 place-items-center bg-[#f1f1f1]">
-                                 <div class="w-48 h-48  rounded-full overflow-hidden mt-4 shadow bg-white">
-                                     <img class="w-full" src="assets/img/cards/pon11-giammpol-taboada.png" alt="Sunset in the mountains">
-                                 </div>
-                                <div class="px-6 py-4">
-                                    <div class="font-bold text-xl mb-2">DR. GIAMMPOL TABOADA PILCO </div>
-                                    <p class="text-gray-700 text-base text-justify">
-                                        Juez Superior Titular de la Corte Superior de Justicia de La Libertad. .
-                                    </p>
+                    <div class="card flex justify-center p-4">
+                        <div class="box w-full max-w-xs bg-[#f1f1f1] rounded-lg shadow-lg">
+                            <div class="flex justify-center my-2">
+                                <div class="w-48 h-48 bg-white rounded-full overflow-hidden shadow">
+                                    <img class="w-full h-full object-cover" src="assets/img/cards/pon12-cesar-nakazaki.png" alt="DR. CLAUDIO JESÚS SANTAGATTI">
                                 </div>
-                               
+                                <div class="w-8 h-8 overflow-hidden shadow-lg absolute top-4 left-4 rounded-tl-lg rounded-br-lg">
+                                    <img class="w-full h-full object-cover" src="assets/img/banderas/peru.jpg" alt="DR. CLAUDIO JESÚS SANTAGATTI">
+                                </div>
+                            </div>
+                            <div class="p-4">
+                                <div class="font-bold text-base mb-2 font-roboto text-justify">DR. CÉSAR NAKAZAKI SERVIGÓN</div>
+                                <p class="text-gray-700 text-base font-roboto text-justify">
+                                    Profesor de la Facultad de Derecho de la Universidad de Lima.
+                                </p>
                             </div>
                         </div>
                     </div>
 
-                    <div class="card flex justify-center animate__animated animate__pulse p-6">
-                        <div class="box">
-                            
-                            <div class="max-w-sm overflow-hidden z-depth-4 card-item grid grid-cols-1 place-items-center bg-[#f1f1f1]">
-                                 <div class="w-48 h-48  rounded-full overflow-hidden mt-4 shadow bg-white">
-                                     <img class="w-full" src="assets/img/cards/pon12-cesar-nakazaki.png" alt="Sunset in the mountains">
-                                 </div>
-                                <div class="px-6 py-4">
-                                    <div class="font-bold text-xl mb-2">DR. CÉSAR NAKAZAKI SERVIGÓN </div>
-                                    <p class="text-gray-700 text-base text-justify">
-                                        Profesor de la Facultad de Derecho de la Universidad de Lima. .
-                                    </p>
+                    <div class="card flex justify-center p-4">
+                        <div class="box w-full max-w-xs bg-[#f1f1f1] rounded-lg shadow-lg">
+                            <div class="flex justify-center my-2">
+                                <div class="w-48 h-48 bg-white rounded-full overflow-hidden shadow">
+                                    <img class="w-full h-full object-cover" src="assets/img/cards/pon13-luis-bramont.png" alt="DR. CLAUDIO JESÚS SANTAGATTI">
                                 </div>
-                               
+                                <div class="w-8 h-8 overflow-hidden shadow-lg absolute top-4 left-4 rounded-tl-lg rounded-br-lg">
+                                    <img class="w-full h-full object-cover" src="assets/img/banderas/peru.jpg" alt="DR. CLAUDIO JESÚS SANTAGATTI">
+                                </div>
                             </div>
-                        </div>
-                    </div>
-
-                    <div class="card flex justify-center animate__animated animate__pulse p-6">
-                        <div class="box">
-                            
-                            <div class="max-w-sm overflow-hidden z-depth-4 card-item grid grid-cols-1 place-items-center bg-[#f1f1f1]">
-                                 <div class="w-48 h-48  rounded-full overflow-hidden mt-4 shadow bg-white">
-                                     <img class="w-full" src="assets/img/cards/pon13-luis-bramont.png" alt="Sunset in the mountains">
-                                 </div>
-                                <div class="px-6 py-4">
-                                    <div class="font-bold text-xl mb-2">SR. DR. LUIS ALBERTO BRAMONT ARIAS</div>
-                                    <p class="text-gray-700 text-base text-justify">
-                                        Profesor de la Facultad de Derecho de la Universidad de Lima  
-                                    </p>
-                                </div>
-                               
+                            <div class="p-4">
+                                <div class="font-bold text-base mb-2 font-roboto text-justify">SR. DR. LUIS ALBERTO BRAMONT ARIAS</div>
+                                <p class="text-gray-700 text-base font-roboto text-justify">
+                                    Profesor de la Facultad de Derecho de la Universidad de Lima.
+                                </p>
                             </div>
                         </div>
                     </div>
 
                     
-
-    
                 </div>
             </div>
         </section>
@@ -371,25 +404,7 @@
                         </div>
                     </div>
                     
-                    <!--<div class="pb-6">
-                        <div class="text-orange-800 text-center font-semibold text-2xl lg:text-4xl">
-                            Contáctanos
-                        </div>
-                        <div class="text-md sm:text-lg my-4">
-                            Escríbenos al correo o contáctanos por WhatsApp
-                        </div>
-                        <div class="">
-                            <div class="email flex items-center gap-2">
-                                <fa-icon [icon]="faEnvelope" class="icon-contact text-2xl"></fa-icon> ugdj_cepj@pj.gob.pe
-                            </div>
-                            <div class="telefono flex items-center gap-2">
-                                <fa-icon [icon]="faPhone" class="icon-contact text-2xl"></fa-icon> 051-970621390
-                            </div>
-                            <div class="dir flex items-center gap-2">
-                                <fa-icon [icon]="faLocationDot" class="icon-contact text-2xl"></fa-icon> Auditorio del Edificio Carlos Zavala Loayza, ubicado en Jirón Manuel Cuadros 182, Lima
-                            </div>
-                        </div>
-                    </div>-->
+                   
                 </div>
                 
 
@@ -397,22 +412,28 @@
             </div>
         </section>
         <footer class="bg-neutral-700">
-            <div class="page-container text-white text-center py-4">
-                <div class="text-footer">Paseo de la República S/N Palacio de Justicia, Cercado, Lima - Perú</div>
-                <div class="text-footer">Copyright - {{currentDate | date: 'yyyy'}} Todos los derechos reservados</div>
-                <div class="text-footer">Recomendado para Chrome, Mozilla Firefox, IExplorer 9 o versiones superiores</div>
+            <div class="text-white text-center py-4 px-4 md:px-8">
+                <div class="text-sm md:text-base mb-2">
+                    Paseo de la República S/N Palacio de Justicia, Cercado, Lima - Perú
+                </div>
+                <div class="text-sm md:text-base mb-2">
+                    Copyright - {{currentDate | date: 'yyyy'}} Todos los derechos reservados
+                </div>
+                <div class="text-sm md:text-base">
+                    Recomendado para Chrome, Mozilla Firefox, IExplorer 9 o versiones superiores
+                </div>
             </div>
         </footer>
+        
     
    
 
-<aside class="social-buttons">
-    <a href="https://whatsapp.com/channel/0029VagBxCk8kyyUKSNmyG42" target="_blank" class="social-button whatsapp-button">
-        <!-- <i class="fab fa-whatsapp"></i> -->
-        <fa-icon [icon]="faWhatsapp" class="text-4xl"></fa-icon>
-    </a>
-    <a href="https://www.facebook.com/profile.php?id=100094014965726" target="_blank" class="social-button facebook-button">
-        <!-- <i class="fab fa-facebook-f"></i> -->
-        <fa-icon [icon]="faFacebook" class="text-4xl"></fa-icon>
-    </a>
-</aside>
+        <aside class="social-buttons">
+            <a href="https://whatsapp.com/channel/0029VagBxCk8kyyUKSNmyG42" target="_blank" class="social-button whatsapp-button">
+                <fa-icon [icon]="faWhatsapp" class="text-4xl"></fa-icon>
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=100094014965726" target="_blank" class="social-button facebook-button">
+                <fa-icon [icon]="faFacebook" class="text-4xl"></fa-icon>
+            </a>
+        </aside>
+        
