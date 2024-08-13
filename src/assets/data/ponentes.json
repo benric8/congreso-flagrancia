@@ -1,0 +1,104 @@
+{"internacionales":[
+    {
+        "nombre": "DR. CLAUDIO JESÚS SANTAGATTI",
+        "imagen": "assets/img/cards/pon1-claudio-santagatti.png",
+        "bandera": "assets/img/banderas/argentina.jpg",
+        "pais": "Argentina",
+        "descripcion": "Defensor General Adjunto en Poder Judicial de la provincia de Buenos Aires, Argentina."
+    },
+    {
+        "nombre": "DR. PATRICIO CAROCA LUENGO",
+        "imagen": "assets/img/cards/pon2-patricio-caroca.png",
+        "bandera": "assets/img/banderas/chile.jpg",
+        "pais": "Chile",
+        "descripcion": "Fiscal Regional del Biobío y Fiscal Regional del Maule. Fiscal Nacional Subrogante del Ministerio Público de Chile."
+    },
+    {
+        "nombre": "DR. DAVID GUTIÉRREZ CASTAÑO",
+        "imagen": "assets/img/cards/pon3-david-gutierrez.png",
+        "bandera": "assets/img/banderas/colombia.jpg",
+        "pais": "Colombia",
+        "descripcion": "Doctor en Derecho, Maestro universitario en diferentes Universidades de Colombia."
+    },
+    {
+        "nombre": "DR. CARLOS NÚÑEZ NUÑEZ",
+        "imagen": "assets/img/cards/pon4-carlos-nunes.png",
+        "bandera": "assets/img/banderas/costa-rica.png",
+        "pais": "Costa Rica",
+        "descripcion": "Juez de Flagrancias en Costa Rica."
+    },
+    {
+        "nombre": "DR. GUSTAVO JALKH RÖBEN",
+        "imagen": "assets/img/cards/pon5-gustavo-jalkh.png",
+        "bandera": "assets/img/banderas/ecuador.jpg",
+        "pais": "Ecuador",
+        "descripcion": "Doctor en Derecho. Ex Presidente del Consejo de la Judicatura del Ecuador y Ministro de Justicia y Derechos Humanos."
+    },
+    {
+        "nombre": "DR. IGNACIO DE TORRES GUAJARDO",
+        "imagen": "assets/img/cards/pon6-ignacio-torres.png",
+        "bandera": "assets/img/banderas/spain.png",
+        "pais": "España",
+        "descripcion": "Magistrado del Juzgado Penal 5 de Madrid. Licenciado en derecho en la especialidad jurídico empresarial."
+    },
+    {
+        "nombre": "DRA. MIRIAM GERARDINE ALDANA REVELO",
+        "imagen": "assets/img/cards/pon7-miriam-aldana.png",
+        "bandera": "assets/img/banderas/salvador.png",
+        "pais": "El Salvador",
+        "descripcion": "Jueza del Tercer Tribunal contra el crimen organizado."
+    },
+    {
+        "nombre": "DR. JUAN MANUEL GUERRERO ALMARAZ",
+        "imagen": "assets/img/cards/pon8-manuel-guerrero.png",
+        "bandera": "assets/img/banderas/mexico.png",
+        "pais": "México",
+        "descripcion": "Director Jurídico para América Latina de la Barra Interamericana de Abogados y de la Facultad Interamericana de Litigación - México."
+    }],
+    "nacionales":[
+        {
+            "nombre": "DRA. ELVIA BARRIOS ALVARADO",
+            "imagen": "assets/img/cards/pon9-elvia-barrios.png",
+            "bandera": "assets/img/banderas/peru.jpg",
+            "pais": "Perú",
+            "descripcion": "Jueza Suprema Titular, Miembro del Consejo Ejecutivo Presidenta de la UETI-CPP, Past presidenta del Poder Judicial."
+        },
+        {
+            "nombre": "DR. JOSÉ ANTONIO NEYRA FLORES",
+            "imagen": "assets/img/cards/pon10-jose-neyra.png",
+            "bandera": "assets/img/banderas/peru.jpg",
+            "pais": "Perú",
+            "descripcion": "Juez Supremo Titular de la Corte Suprema de Justicia del Perú."
+        },
+        {
+            "nombre": "DR. JUAN CARLOS CHECKLEY SORIA",
+            "imagen": "assets/img/cards/pon14-checkley-soria.png",
+            "bandera": "assets/img/banderas/peru.jpg",
+            "pais": "Perú",
+            "descripcion": "Juez Supremo de la Corte Suprema de Justicia de la República."
+        },
+        {
+            "nombre": "DR. GIAMMPOL TABOADA PILCO",
+            "imagen": "assets/img/cards/pon11-giammpol-taboada.png",
+            "bandera": "assets/img/banderas/peru.jpg",
+            "pais": "Perú",
+            "descripcion": "Juez Superior Titular de la Corte Superior de Justicia de La Libertad."
+        },
+        {
+            "nombre": "DR. CÉSAR NAKAZAKI SERVIGÓN",
+            "imagen": "assets/img/cards/pon12-cesar-nakazaki.png",
+            "bandera": "assets/img/banderas/peru.jpg",
+            "pais": "Perú",
+            "descripcion": "Profesor de la Facultad de Derecho de la Universidad de Lima."
+        },
+        {
+            "nombre": "SR. DR. LUIS ALBERTO BRAMONT ARIAS",
+            "imagen": "assets/img/cards/pon13-luis-bramont.png",
+            "bandera": "assets/img/banderas/peru.jpg",
+            "pais": "Perú",
+            "descripcion": "Profesor de la Facultad de Derecho de la Universidad de Lima."
+        }
+    
+    
+]
+}

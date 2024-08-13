@@ -7,17 +7,20 @@ import { InicioComponent } from './components/inicio/inicio.component';
 import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
 
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-
+import { CardComponent } from './components/card/card/card.component';
+import { HttpClientModule } from '@angular/common/http';
 @NgModule({
   declarations: [
     AppComponent,
     InicioComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    CardComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
