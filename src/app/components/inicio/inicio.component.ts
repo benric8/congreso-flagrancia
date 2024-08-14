@@ -44,7 +44,7 @@ export class InicioComponent implements OnInit  {
   }
 
   ngOnInit(): void {
-    configVideo();
+    //configVideo();
     this.getPonentes();
    
   }

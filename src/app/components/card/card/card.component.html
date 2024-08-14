@@ -1,18 +1,18 @@
-<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6">
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 ">
                     
-    <div class="card flex justify-center p-4" *ngFor="let ponente of ponentes">
-        <div class="box w-full max-w-xs bg-[#f1f1f1] rounded-lg shadow-lg">
+    <div class="flex justify-center px-8 py-4" *ngFor="let ponente of ponentes">
+        <div class="box w-full max-w-xs 2xl:max-w-lg bg-[#f1f1f1] rounded-lg shadow-lg">
             <div class="flex justify-center my-2 relative">
-                <div class="w-48 h-48 bg-white rounded-full overflow-hidden shadow">
+                <div class="w-48 h-48 2xl:w-60 2xl:h-60 bg-white rounded-full overflow-hidden shadow">
                     <img class="w-full h-full object-cover" src={{ponente.imagen}} alt={{ponente.nombre}}>
                 </div>
-                <div class="w-8 h-8 overflow-hidden shadow-lg rounded-tl-lg rounded-br-lg  absolute  top-4 left-4">
+                <div class="w-8 h-8 2xl:w-12 2xl:h-12 overflow-hidden shadow-lg rounded-tl-lg rounded-br-lg  absolute  top-4 left-4">
                     <img class="w-full h-full object-cover" src={{ponente.bandera}} alt={{ponente.pais}}>
                 </div>
             </div>
-            <div class="p-4">
-                <div class="font-bold text-base mb-2 font-roboto text-justify">{{ponente.nombre}}</div>
-                <p class="text-gray-700 text-base font-roboto text-justify">
+            <div class="p-4 text-base 2xl:text-xl">
+                <div class="font-bold  mb-2 font-roboto text-justify">{{ponente.nombre}}</div>
+                <p class="text-gray-700 font-roboto text-justify">
                     {{ponente.descripcion}}
                 </p>
             </div>
