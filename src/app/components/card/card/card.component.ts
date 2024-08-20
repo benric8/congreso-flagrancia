@@ -11,4 +11,8 @@ import { PonenteService } from 'src/app/services/ponente-service/ponente.service
 export class CardComponent {
   @Input() ponentes!:Array<Ponente>;
   
+  isLastItem(index: number): boolean {
+    return index === this.ponentes.length - 1;
+  }
+
 }

@@ -1,13 +1,13 @@
 <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 ">
                     
-    <div class="flex justify-center px-8 py-4" *ngFor="let ponente of ponentes">
+    <div class="flex justify-center px-8 py-4" *ngFor="let ponente of ponentes; let i = index" [ngClass]="{ 'lg:col-start-2': isLastItem(i) }">
         <div class="box w-full max-w-xs 2xl:max-w-lg bg-[#f1f1f1] rounded-lg shadow-lg">
             <div class="flex justify-center my-2 relative">
                 <div class="w-48 h-48 2xl:w-60 2xl:h-60 bg-white rounded-full overflow-hidden shadow">
                     <img class="w-full h-full object-cover" src={{ponente.imagen}} alt={{ponente.nombre}}>
                 </div>
-                <div class="w-8 h-8 2xl:w-12 2xl:h-12 overflow-hidden shadow-lg rounded-tl-lg rounded-br-lg  absolute  top-4 left-4">
-                    <img class="w-full h-full object-cover" src={{ponente.bandera}} alt={{ponente.pais}}>
+                <div class="w-1/12  2xl:w-1/6 shadow-lg inline-block  absolute  top-4 left-4">
+                    <img class=" w-full   " src={{ponente.bandera}} alt={{ponente.pais}}>
                 </div>
             </div>
             <div class="p-4 text-base 2xl:text-xl">

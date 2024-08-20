@@ -2,21 +2,21 @@
     {
         "nombre": "DR. CLAUDIO JESÚS SANTAGATTI",
         "imagen": "assets/img/cards/pon1-claudio-santagatti.png",
-        "bandera": "assets/img/banderas/argentina.jpg",
+        "bandera": "assets/img/banderas/argentina.png",
         "pais": "Argentina",
         "descripcion": "Defensor General Adjunto en Poder Judicial de la provincia de Buenos Aires, Argentina."
     },
     {
         "nombre": "DR. PATRICIO CAROCA LUENGO",
         "imagen": "assets/img/cards/pon2-patricio-caroca.png",
-        "bandera": "assets/img/banderas/chile.jpg",
+        "bandera": "assets/img/banderas/chile.png",
         "pais": "Chile",
         "descripcion": "Fiscal Regional del Biobío y Fiscal Regional del Maule. Fiscal Nacional Subrogante del Ministerio Público de Chile."
     },
     {
         "nombre": "DR. DAVID GUTIÉRREZ CASTAÑO",
         "imagen": "assets/img/cards/pon3-david-gutierrez.png",
-        "bandera": "assets/img/banderas/colombia.jpg",
+        "bandera": "assets/img/banderas/colombia.png",
         "pais": "Colombia",
         "descripcion": "Doctor en Derecho, Maestro universitario en diferentes Universidades de Colombia."
     },
@@ -30,23 +30,23 @@
     {
         "nombre": "DR. GUSTAVO JALKH RÖBEN",
         "imagen": "assets/img/cards/pon5-gustavo-jalkh.png",
-        "bandera": "assets/img/banderas/ecuador.jpg",
+        "bandera": "assets/img/banderas/ecuador.png",
         "pais": "Ecuador",
-        "descripcion": "Doctor en Derecho. Ex Presidente del Consejo de la Judicatura del Ecuador y Ministro de Justicia y Derechos Humanos."
+        "descripcion": "Doctor en Derecho. Ex Presidente del Consejo de la Judicatura del Ecuador y Ministro de Justicia y Derechos Humanos - Ecuador."
     },
     {
         "nombre": "DR. IGNACIO DE TORRES GUAJARDO",
         "imagen": "assets/img/cards/pon6-ignacio-torres.png",
         "bandera": "assets/img/banderas/spain.png",
         "pais": "España",
-        "descripcion": "Magistrado del Juzgado Penal 5 de Madrid. Licenciado en derecho en la especialidad jurídico empresarial."
+        "descripcion": "Magistrado del Juzgado Penal 5 de Madrid. Licenciado en derecho en la especialidad jurídico empresarial - España."
     },
     {
         "nombre": "DRA. MIRIAM GERARDINE ALDANA REVELO",
         "imagen": "assets/img/cards/pon7-miriam-aldana.png",
         "bandera": "assets/img/banderas/salvador.png",
         "pais": "El Salvador",
-        "descripcion": "Jueza del Tercer Tribunal contra el crimen organizado."
+        "descripcion": "Jueza del Tercer Tribunal contra el crimen organizado - El Salvador."
     },
     {
         "nombre": "DR. JUAN MANUEL GUERRERO ALMARAZ",
@@ -59,44 +59,51 @@
         {
             "nombre": "DRA. ELVIA BARRIOS ALVARADO",
             "imagen": "assets/img/cards/pon9-elvia-barrios.png",
-            "bandera": "assets/img/banderas/peru.jpg",
+            "bandera": "assets/img/banderas/peru.png",
             "pais": "Perú",
-            "descripcion": "Jueza Suprema Titular, Miembro del Consejo Ejecutivo Presidenta de la UETI-CPP, Past presidenta del Poder Judicial."
+            "descripcion": "Jueza Suprema Titular, Miembro del Consejo Ejecutivo Past presidenta del Poder Judicial."
         },
         {
             "nombre": "DR. JOSÉ ANTONIO NEYRA FLORES",
             "imagen": "assets/img/cards/pon10-jose-neyra.png",
-            "bandera": "assets/img/banderas/peru.jpg",
+            "bandera": "assets/img/banderas/peru.png",
             "pais": "Perú",
-            "descripcion": "Juez Supremo Titular de la Corte Suprema de Justicia del Perú."
+            "descripcion": "Presidente de la Sala Penal Especial de la Corte Suprema para altos funcionarios."
         },
         {
             "nombre": "DR. JUAN CARLOS CHECKLEY SORIA",
             "imagen": "assets/img/cards/pon14-checkley-soria.png",
-            "bandera": "assets/img/banderas/peru.jpg",
+            "bandera": "assets/img/banderas/peru.png",
             "pais": "Perú",
-            "descripcion": "Juez Supremo de la Corte Suprema de Justicia de la República."
+            "descripcion": "Juez Supremo de Investigación Preparatoria de la Corte Suprema de la República."
         },
         {
             "nombre": "DR. GIAMMPOL TABOADA PILCO",
             "imagen": "assets/img/cards/pon11-giammpol-taboada.png",
-            "bandera": "assets/img/banderas/peru.jpg",
+            "bandera": "assets/img/banderas/peru.png",
             "pais": "Perú",
             "descripcion": "Juez Superior Titular de la Corte Superior de Justicia de La Libertad."
         },
         {
             "nombre": "DR. CÉSAR NAKAZAKI SERVIGÓN",
             "imagen": "assets/img/cards/pon12-cesar-nakazaki.png",
-            "bandera": "assets/img/banderas/peru.jpg",
+            "bandera": "assets/img/banderas/peru.png",
             "pais": "Perú",
             "descripcion": "Profesor de la Facultad de Derecho de la Universidad de Lima."
         },
         {
             "nombre": "SR. DR. LUIS ALBERTO BRAMONT ARIAS",
             "imagen": "assets/img/cards/pon13-luis-bramont.png",
-            "bandera": "assets/img/banderas/peru.jpg",
+            "bandera": "assets/img/banderas/peru.png",
             "pais": "Perú",
             "descripcion": "Profesor de la Facultad de Derecho de la Universidad de Lima."
+        },
+        {
+            "nombre": "Dra. KATYA JESSICA CABANILLAS DÍAZ",
+            "imagen": "assets/img/cards/pon14-katya-cabanillas.png",
+            "bandera": "assets/img/banderas/peru.png",
+            "pais": "Perú",
+            "descripcion": "Jueza Superior Provisional de la Sala Penal de Apelaciones de la  Corte Superior de Justicia de Lima Sur."
         }
     
     
